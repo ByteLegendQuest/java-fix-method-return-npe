@@ -1,10 +1,11 @@
 package com.bytelegend;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class CatTest {
     @Test
     public void test() {
-        Assersions.assertEquals("ABC", Cat.createNewCat("ABC"));
+        Assertions.assertEquals("ABC", Cat.createNewCat("ABC"));
     }
 }
