@@ -6,6 +6,6 @@ import org.junit.jupiter.api.Test;
 public class CatTest {
     @Test
     public void test() {
-        Assertions.assertEquals("ABC", Cat.createNewCat("ABC"));
+        Assertions.assertEquals("ABC", Cat.createNewCat("ABC").toString());
     }
 }
