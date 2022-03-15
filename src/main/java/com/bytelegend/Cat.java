@@ -6,6 +6,9 @@ public class Cat {
     public Cat(String name) {
         this.name = name;
     }
+    public Cat(String name) {
+        this.name = name;
+    }
 
     public static void main(String[] args) {
         Cat tom = createNewCat("Tom");
@@ -14,6 +17,6 @@ public class Cat {
 
     public static Cat createNewCat(String name) {
         Cat cat = new Cat(name);
-        return null;
+        return cat;
     }
 }
