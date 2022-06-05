@@ -14,6 +14,6 @@ public class Cat {
 
     public static Cat createNewCat(String name) {
         Cat cat = new Cat(name);
-        return new Cat(name);
+        return null;
     }
 }
