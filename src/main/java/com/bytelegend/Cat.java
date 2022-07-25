@@ -8,12 +8,11 @@ public class Cat {
     }
 
     public static void main(String[] args) {
-        Cat tom = createNewCat("Tom");
+        Cat tom = new Cat("Tom");
         System.out.println(tom.name);
     }
 
     public static Cat createNewCat(String name) {
-        Cat cat = new Cat(name);
-        return null;
+        return new Cat(name);
     }
 }
