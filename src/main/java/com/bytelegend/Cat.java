@@ -8,7 +8,7 @@ public class Cat {
     }
 
     public static void main(String[] args) {
-        Cat tom = createNewCat("Tom");
+        Cat tom = new Cat("Tom");
         System.out.println(tom.name);
     }
 
