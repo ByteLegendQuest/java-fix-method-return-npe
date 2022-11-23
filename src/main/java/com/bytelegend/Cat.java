@@ -3,6 +3,10 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
+    public Cat() {
+        
+    }
+
     public Cat(String name) {
         this.name = name;
     }
@@ -14,6 +18,6 @@ public class Cat {
 
     public static Cat createNewCat(String name) {
         Cat cat = new Cat(name);
-        return null;
+        return cat;
     }
 }
