@@ -7,12 +7,13 @@ public class Cat {
         this.name = name;
     }
 
-    public static Cat createNewCat(String name) {
-        Cat cat = new Cat(name);
-        return cat;
-    }
     public static void main(String[] args) {
         Cat tom = createNewCat("Tom");
         System.out.println(tom.name);
+    }
+
+    public static Cat createNewCat(String name) {
+        Cat cat = new Cat(name);
+        return null;
     }
 }
